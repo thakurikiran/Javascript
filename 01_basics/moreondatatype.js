@@ -35,3 +35,35 @@ const myFunction = function(){
 console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+//++++++++++++++++++++++++++++++++++++++
+
+
+//Stack(Primitive) , Heap(Nonprimitive)
+
+let Merofbkoname = "Kiran shahi"
+
+let twittername =Merofbkoname
+twittername="thakurikiran"
+
+
+console.log(twittername);
+console.log(Merofbkoname);
+
+
+let userOne={
+    email:"thakurikiran575@gmail.com",
+    upi: "user@ybl"
+
+}
+let userTwo= userOne
+userTwo.email="changeemail@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
