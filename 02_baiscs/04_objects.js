@@ -87,7 +87,7 @@ navbar(company="hitesh")
 
 
 {
-    "name":"kiran",
+    "name:"kiran",
     "coursename":"js ho yr ",
     "price ":"free xa",
 }
