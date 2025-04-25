@@ -6,7 +6,7 @@
 const arr = ["kiran","shanker",3,4,5]
 
 for (const num of arr) {
-    console.log(num);
+    // console.log(num);
     
 }
 
@@ -26,7 +26,7 @@ map.set('Nep','Nepal')
 map.set('USA','United States of America')
 map.set('IN','India')
 
-console.log(map);
+// console.log(map);
 
 for (const [key,value] of map) {
     // console.log(key,':-',value);
@@ -38,8 +38,8 @@ const myObject = {
     game2:'fifa',
 }
 
-// for (const [key,value] of myObject {
-//     console.log(key,':-',value);
+for (const [key,value] of myObject {
+    console.log(key,':-',value);
     
-// }
+}
 
